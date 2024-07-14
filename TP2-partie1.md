@@ -104,7 +104,7 @@ INSERT INTO customers (CustomerID, CustomerName, ContactName, Address, City, Pos
 VALUES (28, 'Bólido Comidas preparadas', 'Martín Sommer', 'C/ Araquil, 67', 'Madrid', '28023', 'Spain');
 
 INSERT INTO customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country)
-VALUES (29, 'Bon app\'', 'Laurence Lebihan', '12, rue des Bouchers', 'Marseille', '13008', 'France');
+VALUES (29, 'Bon app', 'Laurence Lebihan', '12, rue des Bouchers', 'Marseille', '13008', 'France');
 
 INSERT INTO customers (CustomerID, CustomerName, ContactName, Address, City, PostalCode, Country)
 VALUES (30, 'Eastern Connection', 'Ann Devon', '35 King George', 'London', 'WX3 6FW', 'UK');
