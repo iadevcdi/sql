@@ -155,7 +155,18 @@ Activer une contrainte :
 ```sql
 ALTER TABLE CUSTOMERS ENABLE CONSTRAINT <NOM_CONTRAINTE>;
 ```
+```sql
+SELECT constraint_name FROM USER_CONSTRAINTS WHERE UPPER(table_name)=&entrer_une_table;
 
+SELECT constraint_name,constraint_type, status FROM USER_CONSTRAINTS WHERE UPPER(table_name)=&entrer_une_table;
+ou
+SELECT constraint_name,constraint_type, status FROM USER_CONSTRAINTS WHERE UPPER(table_name)='CUSTOMERS';
+
+DESC USER_CONSTRAINTS;
+
+ALTER TABLE CUSTOMERS DISABLE CONSTRAINT <NOM_CONTRAINTE>;
+ALTER TABLE CUSTOMERS ENABLE CONSTRAINT <NOM_CONTRAINTE>;
+```
 **Challenge :** Désactivez puis réactivez la contrainte de clé primaire sur la table `CUSTOMERS`.
 
 ## Renommage de Table
