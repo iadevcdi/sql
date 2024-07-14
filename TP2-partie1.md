@@ -1,5 +1,6 @@
 # SELECT
 
+- https://livesql.oracle.com/apex/f?p=590:1000
 - https://www.w3schools.com/sql/sql_select.asp
 
 
