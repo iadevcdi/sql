@@ -1,4 +1,4 @@
-# README : Opérations sur la Base de Données avec la Table CUSTOMERS
+# Opérations sur la Base de Données avec la Table CUSTOMERS
 
 Ce README fournit un guide sur la création, l'insertion, la mise à jour, la suppression et la sélection de données dans une table `CUSTOMERS` à l'aide de commandes SQL. Il inclut également des instructions pour créer, renommer et manipuler des tables.
 
